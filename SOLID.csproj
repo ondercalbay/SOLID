@@ -42,8 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness\Bastion.cs" />
+    <Compile Include="Dal\ConsoleSaver.cs" />
+    <Compile Include="Dal\DbSaver.cs" />
+    <Compile Include="Dal\DeviceSaver.cs" />
+    <Compile Include="Bussiness\Force.cs" />
+    <Compile Include="Bussiness\Infantry.cs" />
+    <Compile Include="Bussiness\Interfaces\ILocationControl.cs" />
+    <Compile Include="Bussiness\Interfaces\IMovement.cs" />
+    <Compile Include="Dal\Interfaces\IRouteSaver.cs" />
+    <Compile Include="Bussiness\Interfaces\ISetup.cs" />
+    <Compile Include="Bussiness\Paratrooper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bussiness\Tank.cs" />
+    <Compile Include="Dal\TextSaver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
